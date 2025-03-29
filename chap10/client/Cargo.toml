@@ -1,0 +1,10 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+data_layer = { path = "../data_layer" }
+async_runtime = { path = "../async_runtime" }
+
+

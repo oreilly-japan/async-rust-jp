@@ -1,0 +1,9 @@
+[package]
+name = "async-rust-ch3"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-task = "4.4.0"
+futures-lite = "1.12.0"
+flume = "0.10.14"

@@ -1,0 +1,9 @@
+[package]
+name = "async_runtime"
+version = "0.1.0"
+edition = "2021"
+
+
+[[bin]]
+name = "main"
+path = "src/main.rs"

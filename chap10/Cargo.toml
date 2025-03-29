@@ -1,0 +1,12 @@
+[package]
+name = "async-rust-code"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = [
+    "async_runtime", "client", "data_layer", "server"]
+
+[[bin]]
+name = "chap10"
+path = "src/main.rs"

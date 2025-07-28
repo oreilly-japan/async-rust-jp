@@ -1,0 +1,12 @@
+[package]
+name = "async-rust-ch10_addendum"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+futures-util = "0.3"
+futures = "0.3"
+async-std = {version = "1.13", features = ["attributes"] }
+waker-fn = "1.1"
+futures-lite = "2.6"
